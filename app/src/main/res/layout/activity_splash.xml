@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".splash">
+
+    <ImageView
+        android:id="@+id/imagelogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_above="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginStart="107dp"
+        android:layout_marginEnd="103dp"
+        android:layout_marginBottom="13dp"
+        android:src="@drawable/logo_task1" />
+
+    <TextView
+        android:id="@+id/textView2"
+
+        android:layout_width="204dp"
+        android:layout_height="64dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="77dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="293dp"
+        android:layout_weight="1"
+        android:foregroundGravity="clip_horizontal"
+        android:gravity="center|center_horizontal"
+        android:text="Unit Converter"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
